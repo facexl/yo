@@ -1,0 +1,31 @@
+.index-container{
+    width:600px;
+    height:100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size:cover;
+    background-position: center center;
+    color:#ffd700;
+    font-family: consolas, monaco, "Andale Mono", monospace;
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0,0,0,0.5);
+        margin-top:15px;
+        padding:15px;
+        border-radius:11px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .index-container{
+        width:100%;
+    }
+}
+.big-font{
+    font-size:24px;
+    font-weight: bold;
+    color:red;
+}
